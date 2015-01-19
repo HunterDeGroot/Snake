@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+        <script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <title>Luminex Bacteria Zapper Game</title>
+        
+
+    </head>
+    <body>
+    	
+        <div align="center" id = "intro">
+        <h2>Luminex Bacteria Game</h2>
+        <p>
+        Your goal is to zap as many bacteria cells as you can with 4 lives. Swipe the screen in the direction you'd like the lazer to move.
+
+        <button onclick="$('#intro').hide(); init();" id="button">Touch To Begin!</button>
+        </p>
+        </div>
+        
+        
+        <center>
+        <canvas id="canvas"></canvas>
+     	</center>
+    </body>
+</html>
